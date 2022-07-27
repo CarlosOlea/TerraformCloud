@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
+  /*cloud {
     organization = "olrecaan"
 
     workspaces {
       name = "TerraformCloud"
     }
-  }
+  }*/
 
   required_providers {
     aws = {
