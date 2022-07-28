@@ -4,7 +4,7 @@ module "ec2_instance" {
 
   name = var.instance_name
 
-  ami                    = "ami-ebd02392"
+  ami                    = "ami-0cff7528ff583bf9a"
   instance_type          = var.instance_type
   key_name               = "CarreyesKP"
   monitoring             = true
