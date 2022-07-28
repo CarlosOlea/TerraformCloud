@@ -14,7 +14,7 @@ module "ec2_instance" {
   tags = {
     Terraform   = "true"
     Environment = "dev"
-    Name = "VM provisioned through VCS"
+    Name = "VM provisioned"
   }
 }
 
